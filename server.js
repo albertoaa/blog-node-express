@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
       description: 'Test description 2',
     },
   ];
-  res.render('index', { articles });
+  res.render('articles/index', { articles });
 });
 
 app.listen(5000);
